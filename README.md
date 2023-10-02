@@ -6,3 +6,6 @@ Make sure your ComfyUI is up to date and clone the repository to `custom_nodes`:
 ```
 git clone https://github.com/wmsouza/comfyui-gpucooldown
 ```
+
+## Usage
+Insert it between the KSampler and VAE Decode nodes.
