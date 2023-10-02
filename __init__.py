@@ -1,4 +1,4 @@
-from .nodes import CoolDown
+from .coolDown import CoolDown
 
 NODE_CLASS_MAPPINGS = {
     "CoolDown": CoolDown,
