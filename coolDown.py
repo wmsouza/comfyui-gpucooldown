@@ -9,7 +9,7 @@ class CoolDown:
                               }}
     RETURN_TYPES = ("LATENT",)
     FUNCTION = "CoolDown"
- 
+
     CATEGORY = "utils"
  
     def CoolDown(self, latent, maxTemp):
@@ -26,12 +26,3 @@ class CoolDown:
                 break
 
         return (latent,)
- 
-NODE_CLASS_MAPPINGS = {
-"CoolDown": CoolDown,
-}
-# Human readable names for the nodes
- 
-NODE_DISPLAY_NAME_MAPPINGS = {
-"CoolDown": "CoolDown",
-}
